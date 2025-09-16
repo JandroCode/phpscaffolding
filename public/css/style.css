@@ -1,0 +1,29 @@
+/* Tipografía global para todo el sitio */
+@font-face {
+    font-family: 'Noi Grotesk';
+    src: url('/phpscaffolding/public/fonts/noi-grotesk/NoiGrotesk-Regular.woff2') format('woff2'),
+         url('/phpscaffolding/public/fonts/noi-grotesk/NoiGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Noi Grotesk', sans-serif;
+}
+/* Tipografía para tablas */
+table {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Botones */
+button {
+    font-family: inherit;
+    padding: 6px 12px;
+    cursor: pointer;
+}
